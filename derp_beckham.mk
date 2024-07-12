@@ -12,12 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit from beckham device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common derpfest stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := beckham
-PRODUCT_NAME := lineage_beckham
+PRODUCT_NAME := derp_beckham
 PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Moto Z3 Play
 PRODUCT_MANUFACTURER := Motorola
